@@ -15,7 +15,7 @@ function getCommonCharacterCount(s1, s2) {
   for (let letter in s2) {
     s1 = s1.replace(s2[letter], "1");
   }
-  return s1.replace(/[^1]/g, "").length;
+  return s1.replace(/[^1]/g, "").length
 }
 
 module.exports = {

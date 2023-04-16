@@ -15,7 +15,7 @@ function sortByHeight(array) {
   let result = [];
   let sortedIter = 0;
   let sortedArray = array.filter((item) => item !== -1).sort(function (a, b) {
-    return a - b;
+    return a - b
   });
   for (let i in array) {
     if (array[i] === -1) {
@@ -25,7 +25,7 @@ function sortByHeight(array) {
       sortedIter++;
     }
   }
-  return result;
+  return result
 }
 
 module.exports = {

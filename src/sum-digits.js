@@ -16,13 +16,13 @@ function getSumOfDigits(n) {
   n = n.toString();
   function reduceNum(num) {
     return num.split('').reduce((sum, item) => {
-      return sum + +item;
+      return sum + +item
     }, 0).toString();
   }
   while (n.length !== 1) {
     n = reduceNum(n);
   }
-  return +n;
+  return +n
 }
 
 module.exports = {

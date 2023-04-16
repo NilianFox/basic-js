@@ -20,7 +20,7 @@ function deleteDigit(number) {
       result = +num;
     }
   }
-  return result;
+  return result
 }
 
 module.exports = {
